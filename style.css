@@ -15,11 +15,11 @@ body {
 }
 
 .wrapper {
-    height: 100vh;
-    display: grid;
-    justify-content: center;
     align-content: center;
+    display: grid;
     gap: 0.8rem;
+    height: 100vh;
+    justify-content: center;
 }
 .time-of-day {
     text-align: center;
@@ -30,11 +30,11 @@ body {
 }
 
 .hours {
+    align-items: center;
     display: grid;
     grid-template-columns: 2fr repeat(4, minmax(0, 1fr));
     grid-template-areas: "hour hour-numbers";
     grid-auto-columns: min-content;
-    align-items: center;
     justify-items: center;
     margin-bottom: 1rem;
 }
